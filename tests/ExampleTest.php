@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Quangvision\Remote\Tests;
 
 class ExampleTest extends TestCase
 {
