@@ -15,10 +15,10 @@ class RemoteCommand extends Command
     {
         Ssh::create('nl', 'localhost')->usePort(2222)
             ->onOutput(
-            function ($type, $line) {
+                function ($type, $line) {
                 echo $line;
-            })->execute($this->getCommandToExecute());
-
+            }
+            )->execute($this->getCommandToExecute());
     }
 
     private function getCommandToExecute()

@@ -2,9 +2,9 @@
 
 namespace Quangvision\Remote;
 
+use Quangvision\Remote\Commands\RemoteCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Quangvision\Remote\Commands\RemoteCommand;
 
 class RemoteServiceProvider extends PackageServiceProvider
 {
